@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM Project 2</title>
+  </head>
+  <body>
+    <p>Amazon Shipping Calculator</p>
+    <input class="cost" placeholder="cost of order" />
+    <button onclick="calculatetotal()">calculate</button>
+    <script>
+        function calculatetotal()
+        {
+        const inputElement=document.querySelector('.cost');
+        const cost= inputElement.value;
+        if(cost<40){
+            cost=cost+10;
+
+        }
+
+
+        }
+
+    </script>
+  </body>
+</html>

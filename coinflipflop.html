@@ -1,0 +1,33 @@
+<!--coin flip flope game-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a=Math.random(); 
+        let result;
+
+        if(a<0.5){
+        result='heads';
+    }
+        else{
+            result='tail';
+        }
+
+          const guess = 'tail';
+          console.log('coinresult:',result);
+          
+         if(guess===result){
+            console.log('you win');
+         }
+         else{
+            console.log('you loose');
+         }
+    </script>
+    
+</body>
+</html>
